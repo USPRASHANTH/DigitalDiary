@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="DigitalDiaryCommandSet_en-us">
+    <AppName> My Diary </AppName>
+    <Example> Open My Diary </Example>
+
+    <Command Name="openDigitalDiary">
+      <Example> Open My Diary </Example>
+      <!--
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> open </ListenFor>
+      -->
+      <ListenFor RequireAppName="ExplicitlySpecified"> {builtin:AppName} open </ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> open {builtin:AppName} </ListenFor>
+      <Feedback> Opening your diary </Feedback>
+      <Navigate />
+    </Command>
+
+    <Command Name="searchDigitalDiary">
+      <Example> Search My Diary </Example>
+      <!--
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> search </ListenFor>
+      -->
+      <ListenFor RequireAppName="ExplicitlySpecified"> search {builtin:AppName} </ListenFor>
+      <Feedback> Opening Search in your diary </Feedback>
+      <Navigate />
+    </Command>
+
+  </CommandSet>
+</VoiceCommands>

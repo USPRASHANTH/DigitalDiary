@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="DigitalDiary.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DigitalDiary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RelativePanel HorizontalAlignment="Left" Height="824" Margin="35,60,0,0" VerticalAlignment="Top" Width="1338">
+            <DatePicker x:ConnectionId='1' x:Name="datePicker" Date="{Binding DatePickerDate, Mode=TwoWay}" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="296" Margin="28,67,-28,-67"                                     />
+            <Button x:ConnectionId='2' x:Name="saveButton" Content="Save" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="114" Margin="28,752,-77,-752"                         />
+            <TextBox x:ConnectionId='3' x:Name="dictationTextBox" Margin="28,203,-774,-272" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"                                            />
+            <TextBlock x:ConnectionId='4' x:Name="discardedTextBlock" Margin="0,10,0,0" TextWrapping="WrapWholeWords" Visibility="Collapsed" Foreground="Red" />
+            <ToggleSwitch x:ConnectionId='5' x:Name="speechListeningMode" Header="Speech Listening mode" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="167" Margin="393,51,-406,-51"                                      />
+            <Button x:ConnectionId='6' x:Name="btnContinuousRecognize"                                   IsEnabled="False" Margin="604,67,-683,-69" Width="167" Height="37">
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Symbol="Microphone"/>
+                    <TextBlock x:ConnectionId='14' x:Name="DictationButtonText" Text=" Dictate" />
+                </StackPanel>
+            </Button>
+            <TextBox x:ConnectionId='7' x:Name="currentDayNotes" Text="{Binding CurrentDayNotes.Result, Mode=TwoWay}" HorizontalAlignment="Left" Height="388" TextWrapping="Wrap" VerticalAlignment="Top" Width="746" Margin="28,337,-703,-693"/>
+            <TextBox x:ConnectionId='8' x:Name="textBox" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="Enter your search text here" VerticalAlignment="Top" Width="300" Margin="865,67,-1094,-67"/>
+            <Button x:ConnectionId='9' x:Name="button" Content="Search" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="109" Margin="1211,67,-1255,-67"/>
+            <TextBlock x:ConnectionId='10' x:Name="previewLabel" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="Preview of the speech below" VerticalAlignment="Top" Width="376" Margin="28,163,-342,-178"/>
+            <TextBlock x:ConnectionId='11' x:Name="notes_Label" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="Notes for the day below" VerticalAlignment="Top" Width="376" Margin="28,297,-342,-312"/>
+            <Button x:ConnectionId='12' x:Name="acceptPreviewButton" Content="Accept" IsEnabled="False" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="167" Margin="393,138,-495,-143"                                  />
+            <Button x:ConnectionId='13' x:Name="clearPreviewButton" Content="Clear" IsEnabled="False" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="167" Margin="604,138,-706,-143"                                 />
+
+        </RelativePanel>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalDiary", "DigitalDiary\DigitalDiary.csproj", "{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|ARM.ActiveCfg = Debug|ARM
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|ARM.Build.0 = Debug|ARM
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|ARM.Deploy.0 = Debug|ARM
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|x64.ActiveCfg = Debug|x64
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|x64.Build.0 = Debug|x64
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|x64.Deploy.0 = Debug|x64
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|x86.ActiveCfg = Debug|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|x86.Build.0 = Debug|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Debug|x86.Deploy.0 = Debug|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|Any CPU.ActiveCfg = Release|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|ARM.ActiveCfg = Release|ARM
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|ARM.Build.0 = Release|ARM
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|ARM.Deploy.0 = Release|ARM
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|x64.ActiveCfg = Release|x64
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|x64.Build.0 = Release|x64
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|x64.Deploy.0 = Release|x64
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|x86.ActiveCfg = Release|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|x86.Build.0 = Release|x86
+		{53E5CC99-F059-4D4A-BE89-B01CA2DE4328}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://usprashanth.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DigitalDiary\\DigitalDiary.csproj
+		SccProjectName1 = DigitalDiary
+		SccLocalPath1 = DigitalDiary
+	EndGlobalSection
+EndGlobal
